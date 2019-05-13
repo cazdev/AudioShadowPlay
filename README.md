@@ -16,7 +16,3 @@ Commissioned by Daniel Rieck.
 - Data is stored in %appdata%/ASP/
 
 https://github.com/CazDev/AudioShadowPlay
-
-## TO DO
-- Plain text export and import
-- Afk/Idle timeout with message asking if the user is idle then if no response return to login
