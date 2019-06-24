@@ -64,6 +64,7 @@
     <Compile Include="ASP.Designer.cs">
       <DependentUpon>ASP.cs</DependentUpon>
     </Compile>
+    <Compile Include="KeyboardHook.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ASP.resx">
@@ -98,6 +99,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Speaker-512.png" />
+    <None Include="Resources\save.mp3" />
     <Content Include="Speaker-512.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
