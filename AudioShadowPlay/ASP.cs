@@ -15,7 +15,6 @@ namespace AudioShadowPlay
 {
     public partial class ASP : Form
     {
-        //Vars
         private static bool SaveNext = false;
         private static int TimeBeforeCleanUp = 120;
         private static int FileCount = 0;
