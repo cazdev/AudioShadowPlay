@@ -279,7 +279,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(41, 16);
             this.label3.TabIndex = 8;
-            this.label3.Text = "v1.2.3";
+            this.label3.Text = "v1.2.4";
             this.label3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
             // lstFiles
