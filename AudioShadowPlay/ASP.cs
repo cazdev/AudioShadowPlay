@@ -40,7 +40,7 @@ namespace AudioShadowPlay
             hook.KeyPressed +=
                 new EventHandler<KeyPressedEventArgs>(hook_KeyPressed);
             // register the control + alt + F12 combination as hot key.
-            hook.RegisterHotKey(AudioShadowPlay.ModifierKeys.Alt, Keys.F8);
+            hook.RegisterHotKey(AudioShadowPlay.ModifierKeys.Alt, Keys.Home);
         }
 
         void hook_KeyPressed(object sender, KeyPressedEventArgs e)
@@ -192,8 +192,7 @@ namespace AudioShadowPlay
         private void BtnStop_Click(object sender, EventArgs e)
         {
             StopRecording();
-
-            btnSettings.BackColor = Color.FromArgb(52, 152, 219);
+            
             pnlSettings.Visible = false;
 
             btnStart.Enabled = true;
@@ -204,8 +203,7 @@ namespace AudioShadowPlay
         {
             StartRecording();
             RestartRecording.Start();
-
-            btnSettings.BackColor = Color.FromArgb(52, 152, 219);
+            
             pnlSettings.Visible = false;
 
             btnStart.Enabled = false;
@@ -217,8 +215,7 @@ namespace AudioShadowPlay
             SaveAudio();
 
             SaveNext = true;
-
-            btnSettings.BackColor = Color.Teal;
+            
             pnlSettings.Visible = false;
         }
 

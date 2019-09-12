@@ -136,7 +136,7 @@
             // 
             // btnSaveDir
             // 
-            this.btnSaveDir.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnSaveDir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
             this.btnSaveDir.FlatAppearance.BorderSize = 0;
             this.btnSaveDir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSaveDir.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -230,7 +230,7 @@
             // 
             // btnApply
             // 
-            this.btnApply.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnApply.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
             this.btnApply.FlatAppearance.BorderSize = 0;
             this.btnApply.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnApply.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
