@@ -1,5 +1,5 @@
 # AudioShadowPlay
-Like NVIDIA's ShadowPlay but for audio. Commissioned by Daniel Rieck.
+Like NVIDIA's [ShadowPlay](https://www.nvidia.com/en-au/geforce/geforce-experience/shadowplay/) but for audio. Commissioned by Daniel Rieck.
 
 Default keybind for saving audio while recording is **Alt + Home**
 
