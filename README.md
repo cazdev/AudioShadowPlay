@@ -1,7 +1,7 @@
 # AudioShadowPlay
 Like NVIDIA's ShadowPlay but for audio. Commissioned by Daniel Rieck.
 
-Default keybind for saving audio is **Alt + Home**
+Default keybind for saving audio while recording is **Alt + Home**
 
 # Default values:
 - Temp audio file save every: 30sec
