@@ -12,3 +12,9 @@ Default keybind for saving audio is **Alt + Home**
 - Costura.Fody.4.1.0
 - Fody.6.3.0
 - NAudio.1.10.0
+
+# Save locations:
+- %AppData%\ASP\Temp - Temporary audio recordings
+- %AppData%\ASP\SavedAudio - Saved audio recordings
+- %AppData%\ASP\Config.asp - Configuration file
+- %AppData%\ASP\save.mp3 - Temporary audio save file
