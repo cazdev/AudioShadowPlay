@@ -1,12 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Threading;
 using System.Windows.Forms;
 using NAudio.Wave;
 using System.IO;
@@ -15,13 +8,14 @@ namespace AudioShadowPlay
 {
     public partial class ASP : Form
     {
+        // Config settings
         private static bool SaveNext = false;
         private static int TimeBeforeCleanUp = 120;
         private static int FileCount = 0;
         private static bool filesLogEnabled = false;
         private static int SamplingRate = 44100;
 
-
+        // Save Locations
         private static string outputPath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + $@"\ASP\Temp\";
         private static string savedPath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + $@"\ASP\SavedAudio\";
         private static string configPath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + $@"\ASP\config.asp";
@@ -30,6 +24,7 @@ namespace AudioShadowPlay
         private WasapiLoopbackCapture CaptureInstance = null;
         private WaveFileWriter RecordedAudioWriter = null;
 
+        //Keyboard access
         KeyboardHook hook = new KeyboardHook();
 
         public ASP()
@@ -54,7 +49,7 @@ namespace AudioShadowPlay
             waveOut.Play();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void ASP_Load(object sender, EventArgs e)
         {
 
             System.IO.FileInfo file1 = new System.IO.FileInfo(outputPath);
@@ -71,6 +66,7 @@ namespace AudioShadowPlay
                 fs.Dispose();
             }
 
+            // Set default values
             txtTempSave.Text = "30";
             txtFileExpire.Text = "120";
             txtSamplingRate.Text = "44100";
@@ -347,6 +343,7 @@ namespace AudioShadowPlay
 
         private void BtnSaveDir_Click(object sender, EventArgs e)
         {
+            // Save file dialog
             using (var fbd = new FolderBrowserDialog())
             {
                 fbd.Description = "----------------------------------------------------------------------" + Environment.NewLine + "Select folder which AudioShadowPlay will save audio to." + Environment.NewLine + "----------------------------------------------------------------------";

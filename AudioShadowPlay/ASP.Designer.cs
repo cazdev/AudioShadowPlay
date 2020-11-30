@@ -46,7 +46,7 @@
             this.btnApply = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.txtTempSave = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lblVersion = new System.Windows.Forms.Label();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.lstFiles = new System.Windows.Forms.ListBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -270,17 +270,17 @@
             this.txtTempSave.TextChanged += new System.EventHandler(this.TxtTempSave_TextChanged);
             this.txtTempSave.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtTempSave_KeyPress);
             // 
-            // label3
+            // lblVersion
             // 
-            this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(302, 321);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(41, 16);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "v1.2.4";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.lblVersion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lblVersion.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblVersion.ForeColor = System.Drawing.Color.White;
+            this.lblVersion.Location = new System.Drawing.Point(302, 321);
+            this.lblVersion.Name = "lblVersion";
+            this.lblVersion.Size = new System.Drawing.Size(41, 16);
+            this.lblVersion.TabIndex = 8;
+            this.lblVersion.Text = "v1.2.4";
+            this.lblVersion.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
             // lstFiles
             // 
@@ -330,7 +330,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
             this.ClientSize = new System.Drawing.Size(400, 350);
             this.Controls.Add(this.lstFiles);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lblVersion);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pnlSettings);
             this.Controls.Add(this.btnSettings);
@@ -344,7 +344,7 @@
             this.Name = "ASP";
             this.Text = "AudioShadowPlay";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ASP_FormClosing);
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Load += new System.EventHandler(this.ASP_Load);
             this.Click += new System.EventHandler(this.ASP_Click);
             this.pnlSettings.ResumeLayout(false);
             this.pnlSettings.PerformLayout();
@@ -367,7 +367,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtFileExpire;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblVersion;
         private System.Windows.Forms.Label lblTick;
         private System.Windows.Forms.ToolTip toolTip;
         private System.Windows.Forms.ListBox lstFiles;
