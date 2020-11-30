@@ -1,5 +1,5 @@
 # AudioShadowPlay
-ShadowPlay but for audio. Commissioned by Daniel Rieck.
+Like NVIDIA's ShadowPlay but for audio. Commissioned by Daniel Rieck.
 
 Default keybind for saving audio is **Alt + Home**
 
