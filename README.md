@@ -18,5 +18,3 @@ Default keybind for saving audio while recording is **Alt + Home**
 - %AppData%\ASP\SavedAudio - Saved audio recordings
 - %AppData%\ASP\Config.asp - Configuration file
 - %AppData%\ASP\save.mp3 - Save audio sound effect
-
-Commissioned by Daniel Rieck.
