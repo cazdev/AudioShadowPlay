@@ -1,5 +1,5 @@
 # AudioShadowPlay
-Like NVIDIA's [ShadowPlay](https://www.nvidia.com/en-au/geforce/geforce-experience/shadowplay/) but for audio. Commissioned by Daniel Rieck.
+Like NVIDIA's [ShadowPlay](https://www.nvidia.com/en-au/geforce/geforce-experience/shadowplay/) but for audio.
 
 Default keybind for saving audio while recording is **Alt + Home**
 
@@ -18,3 +18,5 @@ Default keybind for saving audio while recording is **Alt + Home**
 - %AppData%\ASP\SavedAudio - Saved audio recordings
 - %AppData%\ASP\Config.asp - Configuration file
 - %AppData%\ASP\save.mp3 - Save audio sound effect
+
+Commissioned by Daniel Rieck.
