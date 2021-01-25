@@ -13,7 +13,7 @@ Default keybind for saving audio while recording is **Alt + Home**
 - Fody.6.3.0
 - NAudio.1.10.0
 
-# Save locations:
+# Install locations:
 - %AppData%\ASP\Temp - Temporary audio recordings
 - %AppData%\ASP\SavedAudio - Saved audio recordings
 - %AppData%\ASP\Config.asp - Configuration file
